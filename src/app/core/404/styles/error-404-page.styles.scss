@@ -1,0 +1,18 @@
+@import "../../../styles/_variables";
+@import "../../../styles/_mixins";
+
+
+error-404-page {
+  // #main-nav {
+  //   background-color: $header-bgcolor;
+  // }
+
+  h1 {
+    color: $purple;
+  }
+
+  // header {
+  //   padding-top: calc((100vh - 477px + 45px) / 2);
+  //   padding-bottom: calc((100vh - 477px - 45px) / 2);
+  // }
+}

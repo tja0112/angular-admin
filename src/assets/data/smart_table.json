@@ -1,0 +1,74 @@
+[
+  {
+    "picture": "../../../../assets/imgs/profiles/profile1.jpeg",
+    "name": "Lisa Graham",
+    "country": "Thailand",
+    "interests": "Food, Computers",
+    "birthday": "10/3",
+    "age": 26,
+    "status": "Completed"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile2.jpeg",
+    "name": "Mike Howell",
+    "country": "United Kingdom",
+    "interests": "Home Deco, Wildlife",
+    "birthday": "1/1",
+    "age": 30,
+    "status": "In Progress"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile8.jpeg",
+    "name": "Peter DuBuque",
+    "country": "Brazil",
+    "interests": "Plants, Coffee",
+    "birthday": "8/30",
+    "age": 35,
+    "status": "Cancelled"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile4.jpeg",
+    "name": "Jenny Collins",
+    "country": "India",
+    "interests": "Vegan, Animals",
+    "birthday": "2/28",
+    "age": 29,
+    "status": "Completed"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile7.jpeg",
+    "name": "John Carlson",
+    "country": "France",
+    "interests": "Computers, Wildlife",
+    "birthday": "3/14",
+    "age": 38,
+    "status": "Completed"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile6.jpeg",
+    "name": "Mike Reed",
+    "country": "Vietnam",
+    "interests": "Vegan, Yoga",
+    "birthday": "12/27",
+    "age": 33,
+    "status": "Cancelled"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile5.jpeg",
+    "name": "Lucy Cameron",
+    "country": "United States",
+    "interests": "Coffee, Plants",
+    "birthday": "1/7",
+    "age": 28,
+    "status": "In Progress"
+  },
+  {
+    "picture": "../../../../assets/imgs/profiles/profile3.jpeg",
+    "name": "Martha Owen",
+    "country": "Uruguay",
+    "interests": "Yoga, Crossfit",
+    "birthday": "6/30",
+    "age": 27,
+    "status": "In Progress"
+  }
+]

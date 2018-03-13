@@ -1,0 +1,18 @@
+{
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "extends": ["angular-tslint-rules"],
+  "rules": {
+    "curly": [
+      false,
+      "as-needed"
+    ],
+    "use-view-encapsulation": false,
+    "no-console": false,
+    "no-require-imports": false,
+    "component-selector": false,
+    "prefer-template": false,
+    "experimentalDecorators": true
+  }
+}

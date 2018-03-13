@@ -1,0 +1,20 @@
+<responsive-breakpoints></responsive-breakpoints>
+
+<top-navbar-content class="main-navbar-container" [notifications]="notifications" [messages]="messages"></top-navbar-content>
+
+<div class="main-content-container">
+  <mat-sidenav-container #drawerContainer class="">
+    <mat-sidenav #sideMenu mode="side" opened="true" class="main-sidenav">
+      <side-menu-content></side-menu-content>
+    </mat-sidenav>
+
+    <div class="container-fluid main-content-outer">
+      <breadcrumb></breadcrumb>
+      <router-outlet></router-outlet>
+    </div>
+
+    <mat-sidenav #sideNotifications mode="over" opened="false" position="end" class="notificaitons-sidenav">
+      <notifications-menu-content [notifications]="notifications"></notifications-menu-content>
+    </mat-sidenav>
+  </mat-sidenav-container>
+</div>

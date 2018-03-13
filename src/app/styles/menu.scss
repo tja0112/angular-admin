@@ -1,0 +1,30 @@
+// md-sidenav-container.mat-sidenav-container,disabled
+// md-sidenav.main-sidenav
+// {
+// 	min-height: 100vh;
+// }
+mat-sidenav-container.mat-sidenav-container,
+mat-sidenav.main-sidenav {
+	// min-height: calc(100vh - 60px);
+	height: calc(100vh - 60px);
+}
+
+mat-sidenav-container.mat-sidenav-container {
+	width: 100%;
+}
+
+mat-sidenav.main-sidenav {
+	// Resets
+	// height: initial;
+	// bottom: initial;
+	width: initial;
+  min-width: initial;
+
+	background: transparent;
+	// background-image: linear-gradient(to bottom, #4d0092, #ff87f3);
+	padding: 0px;
+	padding-right: 15px;
+
+	// width: $side-menu-width;
+	// min-height: 100%;
+}

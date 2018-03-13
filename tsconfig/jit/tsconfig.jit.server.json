@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": [
+    "./src/main/jit/main.browser.ts",
+    "./src/main/jit.universal/*",
+    "./src/main/aot/*",
+    "./src/main/aot.universal/*",
+    "./src/main/common.browser.ts",
+    "./src/main/common.server.ts",
+    "./src/main/express-server.no-universal.ts",
+    "./src/main/express-server.universal.ts"
+  ]
+}

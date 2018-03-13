@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "angularCompilerOptions": {
+    "entryModule": "../../src/app/server-app.module#ServerAppModule"
+  },
+  "exclude": [
+    "./src/main/jit/*",
+    "./src/main/jit.universal/*",
+    "./src/main/aot/*",
+    "./src/main/aot.universal/main.browser.ts",
+    "./src/main/common.browser.ts",
+    "./src/main/common.server.ts",
+    "./src/main/express-server.no-universal.ts",
+    "./src/main/express-server.universal.ts"
+  ]
+}
